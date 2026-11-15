@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akhmetzhan Seitkhan: watch faces</title>
+    <style>
+      :root {
+        --bg: #fdfdf8;
+        --fg: #1d221c;
+        --muted: #5a6357;
+        --accent: #305d42;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #10140f;
+          --fg: #e4ead9;
+          --muted: #a3ad9a;
+          --accent: #bedc7f;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          17px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2.5rem 1rem 4rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 0.25rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 2rem 0 0.4rem;
+        color: var(--accent);
+      }
+      p,
+      li {
+        margin: 0.4rem 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Akhmetzhan Seitkhan</h1>
+      <p class="muted">Pixel-art watch faces for Wear OS</p>
+      <p><a href="privacy-policy.html">Privacy policy</a></p>
+    </main>
+  </body>
+</html>
